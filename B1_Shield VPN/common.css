@@ -1,0 +1,63 @@
+.title {
+    font-style: normal;
+    font-size: 64px;
+    line-height: 76px;
+    color: #00204E;
+} 
+
+.sub-title {
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #00204E;
+}
+
+.btn {
+    background-color: #0166F6;
+    box-shadow: 20px 10px 20px rgba(1, 102, 246, 0.1);
+    border-radius: 50px;
+    text-align: center;
+    min-width: 374px;
+    max-width: 374px;
+    padding: 25px 80px;
+}
+
+.btn-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.desc {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #383838;
+}
+
+/* STREAM */
+
+.mg-r-47 {
+    margin-right: 47px;
+}
+
+.mg-l-128 {
+    margin-left: 128px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* SAVE */
+
+.save-sale {
+    font-size: 64px;
+    line-height: 76px;
+    margin-top: 39px;
+}
+
+

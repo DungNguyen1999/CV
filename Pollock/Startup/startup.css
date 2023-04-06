@@ -1,0 +1,18 @@
+/* HEADER */
+
+.header {
+    background-image: url("./img/header bg.png");
+    padding: 15px 0 256px;
+}
+
+.nav-btn {
+    background: #886CFF;
+    padding: 12px 38px;
+}
+
+/* HEADER CONTENT */
+
+.header-content {
+    align-items: center;
+    padding-top: 257px;
+}

@@ -1,0 +1,413 @@
+/* HEADER */
+
+.header {
+    background-image: url("./img/header bg.png");
+    padding: 15px 0 290px;
+}
+
+.nav-btn {
+    min-width: 129px;
+    max-width: 129px;
+    padding: 12px 38px;
+}
+
+/* HEADER CONTENT */
+
+.header-content {
+    padding-top: 200px;
+}
+
+.header-title {
+    font-size: 72px;
+    line-height: 78px;
+    max-width: 700px;
+}
+
+.header-title-color {
+    background: linear-gradient(91.79deg, #857FFF 32.21%, #FFC0EC 83.79%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.header-desc {
+    max-width: 590px;
+    margin: 40px 0 70px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-get {
+    min-width: 158px;
+    max-width: 158px;
+    margin-right: 10px;
+}
+
+.btn-how {
+    display: flex;
+    align-items: center;
+}
+
+.btn-how-link {
+    display: flex;
+    align-items: center;
+}
+
+.header-play-icon {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.btn-how-text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #2D3958;
+}
+
+.vector {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 640px;
+    left: 50%;
+    cursor: pointer;
+}
+
+/* END HEADER */
+
+/* WE */
+
+.we {
+    width: 100%;
+    height: auto;
+    padding: 150px 0 120px;
+}
+
+.we-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-title {
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    max-width: 970px;
+}
+
+.we-desc {
+    text-align: center;
+    margin: 30px 0 80px;
+}
+
+.we-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.we-item {
+    width: calc((100% - 60px) / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(97, 119, 152, 0.2);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 50px 35px 60px;
+}
+
+.we-item:hover {
+    border: none;
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(79, 119, 255, 0.2);
+}
+
+.we-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.we-item-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #120F1F;
+    margin: 22px 0 40px;
+}
+
+.we-item-desc {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.we-btn {
+    min-width: 203px;
+    max-width: 203px;
+    font-size: 15px;
+    margin: 70px 0 120px;
+}
+
+.we-label {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.we-brand-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.we-google-size {
+    width: 129.55px;
+    height: 45.52px;
+}
+
+.we-netflix-size {
+    width: 126.05px;
+    height: 33.85px;
+}
+
+.we-slack-size {
+    width: 155.22px;
+    height: 39.68px;
+}
+
+.we-intercom-size {
+    width: 189.07px;
+    height: 47.85px;
+}
+
+/* END WE */
+
+/* DIGITAL */
+
+.digital {
+    width: 100%;
+    height: auto;
+    background: #F7F5F1;
+    padding: 120px 0;
+}
+
+.digital-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital-title {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.digital-label {
+    text-align: center;
+    margin: 30px 0 120px;
+}
+
+.digital-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digital-img {
+    width: 570px;
+    height: 720px;
+}
+
+.digital-item-title {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: -1px;
+}
+
+.digital-desc {
+    max-width: 550px;
+    margin: 30px 0 50px;
+}
+
+.digital-web-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.digital-web-item {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.digital-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+}
+
+.digital-web-title {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    margin-bottom: 10px;
+}
+
+.digital-web-desc {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mg-b-0 {
+    margin-bottom: 0;
+}
+
+.mg-t-b-25-70 {
+    margin: 25px 0 70px;
+}
+
+.digital-btn {
+    min-width: 174px;
+    max-width: 174px;
+    font-size: 15px;
+}
+
+/* END DIGITAL */
+
+/* EXPLORE */
+
+.explore {
+    width: 100%;
+    height: auto;
+    padding: 120px 0 118px;
+}
+
+.explore-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-title {
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 910px;
+}
+
+.explore-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mg-t-b-100-50 {
+    margin: 100px 0 50px;
+}
+
+.explore-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-img {
+    border-radius: 40px;
+    margin-bottom: 29px;
+}
+
+.big {
+    width: 670px;
+    height: 570px;
+}
+
+.explore-label {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #4F77FF;
+}
+
+.small {
+    width: 470px;
+    height: 570px;
+}
+
+/* END EXPLORE */
+
+/* SILICON */
+
+.silicon {
+    width: 100%;
+    height: auto;
+    background: #F7F5F1;
+    padding: 106px 0;
+}
+
+.silicon-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.silicon-title {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    max-width: 790px;
+}
+
+.silicon-label {
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin: 30px 0 65px;
+}
+
+.silicon-btn {
+    min-width: 158px;
+    max-width: 158px;
+    font-size: 15px;
+    padding: 15px 32px;
+}
+
+/* END SILICON */
+
